@@ -1,0 +1,157 @@
+body {
+    background-color: #FFFFFF;
+  }
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.container-bin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    gap: 5px;
+}
+
+.button-number{
+    width: 50px;
+    height: 50px;
+    background-color: #505050;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:larger;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.button-operator{
+    width: 50px;
+    height: 50px;
+    background-color: #FF9500;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:larger;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.button-function{
+    width: 50px;
+    height: 50px;
+    background-color: #6c6d6d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:larger;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.button-clear{
+    width: 105px;
+    height: 50px;
+    background-color: #6c6d6d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:larger;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.button-zero{
+    width: 160px;
+    height: 50px;
+    background-color: #505050;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:larger;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.screen{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: right;
+    font-size:xx-large;
+    width: 215px;
+    height: 50px;
+    padding: 2px;
+
+}
+
+.container-cal{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    width: 220px;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    width: 220px;
+    justify-content: space-around;
+}
+
+.history-text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 20px;
+    width: 220px;
+    justify-content: space-around;
+    color:#FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.button-history {
+    width: 105px;
+    height: 50px;
+    background-color: #6c6d6d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:small;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}

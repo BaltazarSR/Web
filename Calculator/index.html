@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <!-- Contenedor principal -->
+        <div class="container-cal">
+            <!-- Pantalla -->
+            <div class="screen">
+                <span id="operation"></span>
+            </div>
+            <!-- Row de botones -->
+            <div class="container-bin">
+                <div class="button-clear" onclick="addInput('AC')">AC</div>
+                <div class="button-function" onclick="addInput('^')">^</div>
+                <div class="button-operator" onclick="addInput('/')">/</div>
+            </div>
+            <!-- Row de botones -->
+            <div class="container-bin">
+                <div class="button-number" onclick="addInput(7)">7</div>
+                <div class="button-number" onclick="addInput(8)">8</div>
+                <div class="button-number" onclick="addInput(9)">9</div>
+                <div class="button-operator" onclick="addInput('x')">X</div>
+            </div>
+            <!-- Row de botones -->
+            <div class="container-bin">
+                <div class="button-number" onclick="addInput(4)">4</div>
+                <div class="button-number" onclick="addInput(5)">5</div>
+                <div class="button-number" onclick="addInput(6)">6</div>
+                <div class="button-operator" onclick="addInput('-')">-</div>
+            </div>
+            <!-- Row de botones -->
+            <div class="container-bin">
+                <div class="button-number" onclick="addInput(1)">1</div>
+                <div class="button-number" onclick="addInput(2)">2</div>
+                <div class="button-number" onclick="addInput(3)">3</div>
+                <div class="button-operator" onclick="addInput('+')">+</div>
+            </div>
+            <!-- Row de botones -->
+            <div class="container-bin">
+                <div class="button-zero" onclick="addInput(0)">0</div>
+                <div class="button-operator" onclick="addInput('=')">=</div>
+            </div>
+        </div>
+        <div class="history">
+            <div class="button-history" onclick="showHistory()">
+                SHOW
+            </div>
+            <div class="button-history" onclick="hideHistory()">
+                HIDE
+            </div>
+            <div class="button-history" onclick="clearHistory()">
+                CLEAR
+            </div>
+        </div>
+        <div class="history-text">
+            <span id="history"></span>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
